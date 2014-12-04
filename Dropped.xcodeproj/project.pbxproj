@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233342BC1A2F6DC900F3B933 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233342BB1A2F6DC900F3B933 /* MapKit.framework */; };
+		233342BE1A2F6E0A00F3B933 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233342BD1A2F6E0A00F3B933 /* CoreLocation.framework */; };
+		233342C11A2F7E5000F3B933 /* RMapScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233342C01A2F7E5000F3B933 /* RMapScreenViewController.m */; };
 		2384A41F19C622070094EE3B /* icono-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 2384A41E19C622070094EE3B /* icono-76.png */; };
 		23956778193810FB002C9453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23956777193810FB002C9453 /* Foundation.framework */; };
 		2395677A193810FB002C9453 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23956779193810FB002C9453 /* CoreGraphics.framework */; };
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		233342BB1A2F6DC900F3B933 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		233342BD1A2F6E0A00F3B933 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		233342BF1A2F7E5000F3B933 /* RMapScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMapScreenViewController.h; sourceTree = "<group>"; };
+		233342C01A2F7E5000F3B933 /* RMapScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMapScreenViewController.m; sourceTree = "<group>"; };
 		2384A41E19C622070094EE3B /* icono-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icono-76.png"; path = "../../../../Downloads/Projects/Jellow 2/icono-76.png"; sourceTree = "<group>"; };
 		23956774193810FB002C9453 /* Dropped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropped.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23956777193810FB002C9453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,8 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				233342BE1A2F6E0A00F3B933 /* CoreLocation.framework in Frameworks */,
 				2395677A193810FB002C9453 /* CoreGraphics.framework in Frameworks */,
 				2395677C193810FB002C9453 /* UIKit.framework in Frameworks */,
+				233342BC1A2F6DC900F3B933 /* MapKit.framework in Frameworks */,
 				23956778193810FB002C9453 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +112,8 @@
 		23956776193810FB002C9453 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				233342BD1A2F6E0A00F3B933 /* CoreLocation.framework */,
+				233342BB1A2F6DC900F3B933 /* MapKit.framework */,
 				23956777193810FB002C9453 /* Foundation.framework */,
 				23956779193810FB002C9453 /* CoreGraphics.framework */,
 				2395677B193810FB002C9453 /* UIKit.framework */,
@@ -122,6 +133,8 @@
 				23956790193810FB002C9453 /* RViewController.m */,
 				2384A41E19C622070094EE3B /* icono-76.png */,
 				2395677E193810FB002C9453 /* Supporting Files */,
+				233342BF1A2F7E5000F3B933 /* RMapScreenViewController.h */,
+				233342C01A2F7E5000F3B933 /* RMapScreenViewController.m */,
 			);
 			path = Dropped;
 			sourceTree = "<group>";
@@ -203,6 +216,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					23956773193810FB002C9453 = {
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					23956797193810FB002C9453 = {
 						TestTargetID = 23956773193810FB002C9453;
 					};
@@ -254,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				233342C11A2F7E5000F3B933 /* RMapScreenViewController.m in Sources */,
 				23956791193810FB002C9453 /* RViewController.m in Sources */,
 				23956784193810FB002C9453 /* main.m in Sources */,
 				23956788193810FB002C9453 /* RAppDelegate.m in Sources */,

@@ -26,11 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
-//Khattra
-//pamma
-//ravi
-//vatish
-//parmjit
-//parmjit khattra
-//sangrur
+- (IBAction)showMap:(id)sender {
+   // [self loadView:];
+    NSString *storyBoardName = @"iPhone_stroyboard";
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyBoardName bundle: nil];
+    UIViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"MapScreenDisplay"];
+    [self presentViewController:vc animated:YES completion:nil];
+    
+}
+
 @end

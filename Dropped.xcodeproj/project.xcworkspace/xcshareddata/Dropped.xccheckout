@@ -10,29 +10,29 @@
 	<string>Dropped</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>559016FF-5900-44C7-820C-25F668C381F7</key>
+		<key>658F28AD68863025CC1D696BF594495373EECBCB</key>
 		<string>https://github.com/ravindervatish/dropperd.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Dropped.xcodeproj/project.xcworkspace</string>
+	<string>Dropped.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>559016FF-5900-44C7-820C-25F668C381F7</key>
+		<key>658F28AD68863025CC1D696BF594495373EECBCB</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/ravindervatish/dropperd.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>559016FF-5900-44C7-820C-25F668C381F7</string>
+	<string>658F28AD68863025CC1D696BF594495373EECBCB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>559016FF-5900-44C7-820C-25F668C381F7</string>
+			<string>658F28AD68863025CC1D696BF594495373EECBCB</string>
 			<key>IDESourceControlWCCName</key>
 			<string>dropperd</string>
 		</dict>
