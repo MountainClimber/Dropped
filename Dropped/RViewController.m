@@ -28,7 +28,7 @@
 
 - (IBAction)showMap:(id)sender {
    // [self loadView:];
-    NSString *storyBoardName = @"iPhone_stroyboard";
+    NSString *storyBoardName = @"Main_iPhone";
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyBoardName bundle: nil];
     UIViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"MapScreenDisplay"];
     [self presentViewController:vc animated:YES completion:nil];
