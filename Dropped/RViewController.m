@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //get permssion for loaction display
+//    CLLocationManager *l_manager = [[CLLocationManager alloc]init];
+//    [l_manager requestWhenInUseAuthorization];
+
 }
 
 - (void)didReceiveMemoryWarning
