@@ -409,13 +409,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iOS Development: ravinder kumar (74R5A25D3R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Development: ravinder kumar (74R5A25D3R)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dropped/Dropped-Prefix.pch";
 				INFOPLIST_FILE = "Dropped/Dropped-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "d8368c5f-6af8-40d9-85c2-3420551bb4bc";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -425,13 +425,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iOS Development: ravinder kumar (74R5A25D3R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Development: ravinder kumar (74R5A25D3R)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dropped/Dropped-Prefix.pch";
 				INFOPLIST_FILE = "Dropped/Dropped-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "d8368c5f-6af8-40d9-85c2-3420551bb4bc";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

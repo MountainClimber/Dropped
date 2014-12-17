@@ -10,8 +10,15 @@
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
 
-@interface RMapScreenViewController : UIViewController<MKMapViewDelegate, CLLocationManagerDelegate>
-@property (weak, nonatomic) IBOutlet MKMapView *l_mapView;
+@interface RMapScreenViewController : UIViewController<MKMapViewDelegate, CLLocationManagerDelegate, MKOverlay>
+{
+    BOOL firstLocationUpdateReported;
+}
+@property (strong, nonatomic)CLLocation *lastRecordedLocation;
+//@property (strong, nonatomic)CLLocation
+
+@property (strong, nonatomic) NSMutableArray* locationArray;
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong, nonatomic) CLLocationManager *locationManager;
 
 @end
